@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin :0;
+	padding :0 ;
+	box-sizing: border-box;
+}
+.header {
+	display :flex;
+	justify-content: space-between;
+	align-items:flex-start;
+	background-image: url("329055_329055-gucci-cover_1669818831.jpg");
+	height: 380px;
+	z-index: 1;
+	
+}
+.header img {
+	width : 7.5%;
+}
+.header ul {
+	display :flex;
+	justify-content: space-between;
+	width : 100%;
+	padding : 30px 60px;
+	list-style: none;
+	font-size : 20px;
+	background-color :white;
+	margin-right: 0;
+	
+}
+.header li {
+	padding-left: 70px;
+}
+a{
+	background-color:#fe191e;
+	padding : 10px 20px;
+}
+.noidung1 {
+	text-align: center;
+	padding : 100px;
+	background-color :white; 
+	width :60%;
+	margin : 0 auto;
+}
+.noidung1 h1{
+	font-size : 40px;
+	color:#fe191e;
+}.noidung1 p{
+	font-size : 16px;
+	color:#10b761;
+}
+.noidung2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding : 100px ;
+	background-color:#fe191e;
+	
+}
+.noidung2 .left {
+	width :45%;
+	padding : 5 70px;
+	margin-left : 400px;
+}
+.noidung2 .right img {
+	padding-left :  90px;
+	margin-right : 90px;
+	width :50%;
+	
+}
+.noidung2 h3{
+	font-size :25px;
+}
+.noidung2 p{
+	font-size :16px;
+}
+.noidung3 {
+	text-align: center;
+	padding : 50px;
+}
+.noidung3 h1{
+	padding : 10px;
+	font-size : 40px;
+	color:#fe191e;
+}
